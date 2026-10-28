@@ -28,6 +28,8 @@ python src\analyze_event.py
 
 Outputs are written to `reports/` and `reports/figures/`.
 
+For a quick review, open the [analysis notebook](notebooks/01_gw150914_signal_noise.ipynb) and the [detailed results report](reports/initial_results.md).
+
 ## Analysis approach
 
 - Estimate a Welch PSD from the 32-second data segment; whiten in the frequency domain and band-pass 20–300 Hz.
@@ -53,4 +55,4 @@ Data-quality flags `DATA`, `CBC_CAT1`, and `CBC_CAT2` pass for both detectors. L
 
 ## Current status
 
-The official API and both detector files have been checked. The script has run and generated the summary table, detector plots, and two-detector comparison. The notebook and `reports/initial_results.md` summarize the exploratory result and its limitations. The project is not yet published to GitHub.
+The public repository is available at [Iparkhan/gravitational-wave-signal-noise](https://github.com/Iparkhan/gravitational-wave-signal-noise). The official API and detector files have been checked; the script generates the summary table and figures. The notebook and results report explain the findings and their limitations.
